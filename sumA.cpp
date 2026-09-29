@@ -1,8 +1,8 @@
-#include &lt;iostream&gt;
+#include <iostream>
 int main() {
 
 long long sum = 0;
-for (long long i = 0; i &lt; 100000000; i++) sum
+for (long long i = 0; i < 100000000; i++) sum
 += i;
-std::cout &lt;&lt; sum &lt;&lt; std::endl;
+std::cout << sum << std::endl;
 }
